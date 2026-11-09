@@ -19,20 +19,39 @@ pip install -e . --no-deps         # 2) 本仓 editable + ssj / arena 入口
 - 第 2 步注册 **`ssj`**、**`arena`**（`[project.scripts]`）；本地会生成 `ssaiyan.egg-info/`，勿提交。
 - 若图省事可只跑 `pip install -e .`（一步装依赖+入口），与上面两步等价。
 
-## 密钥与示例 Case
+## 快速上手
 
 ```bash
 cp .env.example .env    # 填 API key；勿提交 .env
 arena list
 arena init --case case001-4llm-demo
 arena check --case case001-4llm-demo
+arena run --case case001-4llm-demo all
+arena summary --case case001-4llm-demo
 ```
 
 Arena 跑分产物在 **`case/<id>/reports/<profile>/`**（不是仓库根 `reports/`）。  
 发布 agent 代际：冻结包由维护者构建并放在 `templates/ssj/<ver>/ssj-<ver>.tar.gz`；`arena init` 直接解压该包，本地无需重新构建。
 
+## 结构
+
+```
+benchmark/          考卷（manifest + jsonl，git 发布）
+templates/ssj/      agent 本体（冻结 tar.gz，可复现）
+templates/case/     实验配方模板
+case/<id>/          一次实验：各 profile 进程根 + reports/ + export/
+cli/ ssj/ shared/   源码（ssj 与 arena 两个入口）
+```
+
+**四层怎么串起来、为什么不合并**：见 [ARCHITECTURE.md](ARCHITECTURE.md)。
+
+## 示例 Case
+
+[`case001-4llm-demo`](case/case001-4llm-demo/) — 4 个模型（ds / kimi / jev / mimo）× 30 题 demo，含跑分结果与可读报告。
+
 ## 文档
 
+- 架构：[ARCHITECTURE.md](ARCHITECTURE.md)
 - Cursor / WSL 约定：[.cursor/rules/python-wsl-venv.mdc](.cursor/rules/python-wsl-venv.mdc)
 
 ## 许可
