@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="assets/banner.jpg" alt="SSaiyan — Arena for agents and models" width="100%">
+</p>
+
 # SSaiyan
 
-Agent 对标（Arena Case、`ssj` 白板、`benchmark` 静态套件）。**本地开发仅支持 Linux / WSL**（Python 3.12+），不要在 Windows 原生 Python 下安装或运行 `ssj` / `arena`（`arena run` 会用同一 venv 的 Python 子进程跑冻结 bundle，路径与 env 按 Unix 约定）。
+**Agent 对标竞技场** · 把不同模型放进同一份考卷、同一个冻结 agent、同一套进程隔离里跑，结果可复现、可追溯。
+
+**本地开发仅支持 Linux / WSL**（Python 3.12+），不要在 Windows 原生 Python 下安装或运行 `ssj` / `arena`（`arena run` 会用同一 venv 的 Python 子进程跑冻结 bundle，路径与 env 按 Unix 约定）。
 
 ## Clone 后构建环境
 
