@@ -217,4 +217,7 @@ item['prompt']
 ## 参考
 
 - 安装与环境：[README.md](README.md)
+- 跑一场评测：[doc/case-workflow.md](doc/case-workflow.md)
+- 冻结包机制：[doc/freeze.md](doc/freeze.md)
+- 考卷格式：[benchmark/README.md](benchmark/README.md)
 - 许可边界：[LICENSE](LICENSE) · [NOTICE](NOTICE)

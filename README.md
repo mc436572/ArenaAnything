@@ -51,7 +51,10 @@ cli/ ssj/ shared/   源码（ssj 与 arena 两个入口）
 
 ## 文档
 
-- 架构：[ARCHITECTURE.md](ARCHITECTURE.md)
+- 架构总览：[ARCHITECTURE.md](ARCHITECTURE.md)
+- 跑一场评测：[doc/case-workflow.md](doc/case-workflow.md)
+- 冻结包机制：[doc/freeze.md](doc/freeze.md)
+- 文档索引：[doc/README.md](doc/README.md)
 - Cursor / WSL 约定：[.cursor/rules/python-wsl-venv.mdc](.cursor/rules/python-wsl-venv.mdc)
 
 ## 许可

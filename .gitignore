@@ -27,8 +27,8 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
-# 内部设计文档暂不公开
-/doc/
+# 内部设计文档（愿景/路线图/商业计划/调研草案）不公开；doc/ 顶层的技术文档要入库
+/doc/internal/
 
 # 维护者脚本与原始数据下载，暂不公开
 /scripts/
