@@ -50,7 +50,8 @@ templates/ssj/0.1.0/
 | `--rebuild` | 删除整个 `case/<id>/` 后重建（会覆盖密钥） |
 | `--no-ping` | 跳过初始化后的连通性验证 |
 
-默认行为会从仓库根 `.env` 或环境变量 `SSAIYAN_SECRETS` 补齐各 profile 缺失的 key。
+默认行为会从仓库根 `.env` 或环境变量 `ARENAANYTHING_SECRETS` 补齐各 profile 缺失的 key。
+（旧名 `SSAIYAN_SECRETS` 仍兼容，用于已有本地配置。）
 
 ## 升级到新版本
 

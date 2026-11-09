@@ -12,6 +12,17 @@
 > 第一个轻量级可对比 agent（`ssj @ 0.1.0`）已经跑通并在真实模型上完成验证，
 > 首个 Case 见 [`case001-4llm-demo`](case/case001-4llm-demo/)。
 
+## 命名
+
+| 名称 | 指什么 |
+|------|--------|
+| **ArenaAnything** | **项目名**（唯一正式名称） |
+| **`ssj`** | 智能体 CLI 入口（命令名） |
+| **`arena`** | 对比 / 分析 CLI 入口（命令名） |
+| **`arenaanything`** | Python 包名（`pip` 中显示的名字） |
+
+本地克隆目录叫什么与应用无关 —— 下文示例统一用 `ArenaAnything`。
+
 ## 两个入口
 
 框架提供两个 CLI 入口，职责单向分离：
@@ -211,7 +222,3 @@ cli/ ssj/ shared/   源码（ssj 与 arena 两个入口）
 - **代码**：Apache-2.0，见 [LICENSE](LICENSE)
 - **`benchmark/` 数据**：沿用上游许可，**不受 Apache-2.0 覆盖**。`ceval.jsonl`、`cmmlu.jsonl`（及包含二者的 `demo.jsonl`）为 **CC BY-NC-SA 4.0，禁止商业使用**；`mmlu.jsonl` 为 MIT。详见 [NOTICE](NOTICE)。
 - 在仓库仍包含上述数据文件时，**请勿将其用于商业再分发**。
-
----
-
-本地开发目录名为 `SSaiyan`，与项目名无关。

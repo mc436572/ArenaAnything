@@ -3,9 +3,9 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ssaiyan"
+name = "arenaanything"
 version = "0.1.0"
-description = "Agentic AI data infra (Harness, benchmark, flywheel)"
+description = "Minimal measurable agent framework — benchmarks, agent arena, iteration toward RSI"
 requires-python = ">=3.12"
 dependencies = [
     "asyncpg>=0.29",

@@ -21,12 +21,18 @@ def resolve_secrets_pool_path(
     case_spec: dict,
 ) -> Path:
     """Locate the secrets pool .env (gitignored)."""
-    override = os.environ.get('SSAIYAN_SECRETS', '').strip()
+    # Canonical name first; SSAIYAN_SECRETS kept as a deprecated alias so existing
+    # local setups keep working after the project rename.
+    override = os.environ.get('ARENAANYTHING_SECRETS', '').strip()
+    legacy = not override
+    if not override:
+        override = os.environ.get('SSAIYAN_SECRETS', '').strip()
     if override:
         path = Path(override).expanduser()
         if not path.is_file():
+            env_name = 'SSAIYAN_SECRETS' if legacy else 'ARENAANYTHING_SECRETS'
             raise SecretsPoolError(
-                f'SSAIYAN_SECRETS points to missing file: {path}'
+                f'{env_name} points to missing file: {path}'
             )
         return path.resolve()
 
@@ -46,7 +52,7 @@ def resolve_secrets_pool_path(
     default = (repo_root / '.env').resolve()
     if not default.is_file():
         raise SecretsPoolError(
-            'No secrets pool: create repo-root .env, set SSAIYAN_SECRETS, '
+            'No secrets pool: create repo-root .env, set ARENAANYTHING_SECRETS, '
             'or case.yaml secrets.file — then re-run arena init'
         )
     return default
