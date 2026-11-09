@@ -77,7 +77,7 @@ def chat_openai_compatible_raw(
     if api_key:
         headers['Authorization'] = f'Bearer {api_key}'
     if route.prefix == 'openrouter/':
-        headers.setdefault('HTTP-Referer', 'https://github.com/ssaiyan/ssj')
+        headers.setdefault('HTTP-Referer', 'https://github.com/mc436572/ArenaAnything')
         headers.setdefault('X-Title', 'ssj')
 
     from ssj.model_chat_params import effective_chat_temperature

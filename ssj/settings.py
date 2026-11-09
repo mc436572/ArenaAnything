@@ -1,4 +1,4 @@
-"""SSaiyan / ssj 配置.
+"""ArenaAnything / ssj 配置.
 
 进程根在启动时定死：手工运行时根是当时的工作目录；若设置了 SSJ_ROOT，
 它必须与工作目录相同。配置、密钥、traces 只相对这个根。

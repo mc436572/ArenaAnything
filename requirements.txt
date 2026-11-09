@@ -1,4 +1,4 @@
-# SSaiyan — third-party deps (canonical ranges in pyproject.toml).
+# ArenaAnything — third-party deps (canonical ranges in pyproject.toml).
 # Platform: Linux / WSL only, Python >= 3.12.
 #
 # After: python3.12 -m venv venv_wsl && source venv_wsl/bin/activate && pip install -U pip

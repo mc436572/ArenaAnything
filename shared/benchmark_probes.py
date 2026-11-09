@@ -23,7 +23,7 @@ def repo_benchmark_root(start: Path | None = None) -> Path:
         if manifest.is_file():
             return parent / "benchmark"
     raise BenchmarkProbeError(
-        f"Cannot find {MANIFEST_REL}. Run from SSaiyan repo or set cwd to repo root."
+        f"Cannot find {MANIFEST_REL}. Run from ArenaAnything repo or set cwd to repo root."
     )
 
 

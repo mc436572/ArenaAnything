@@ -261,7 +261,7 @@ def _decisions_headers(litellm_model: str, api_key: str, rule: TransportRule) ->
         'Content-Type': 'application/json',
     }
     if rule.api_root_kind == 'openrouter':
-        headers.setdefault('HTTP-Referer', 'https://github.com/ssaiyan/ssj')
+        headers.setdefault('HTTP-Referer', 'https://github.com/mc436572/ArenaAnything')
         headers.setdefault('X-Title', 'ssj')
     return headers
 

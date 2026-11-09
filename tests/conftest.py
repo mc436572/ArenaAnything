@@ -1,4 +1,4 @@
-"""Shared pytest helpers for SSaiyan."""
+"""Shared pytest helpers for ArenaAnything."""
 
 from __future__ import annotations
 

@@ -21,7 +21,7 @@ def find_repo_root(start: Path | None = None) -> Path:
     for parent in [cur, *cur.parents]:
         if (parent / REPO_ROOT_MARKER).is_file():
             return parent
-    raise FileNotFoundError(f'Cannot find SSaiyan repo root (missing {REPO_ROOT_MARKER})')
+    raise FileNotFoundError(f'Cannot find ArenaAnything repo root (missing {REPO_ROOT_MARKER})')
 
 
 def load_case_spec(case_yaml: Path) -> dict:

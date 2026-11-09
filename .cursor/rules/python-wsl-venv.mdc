@@ -1,5 +1,5 @@
 ---
-description: SSaiyan 在 WSL 中使用 venv_wsl 运行 Python/pip/测试
+description: ArenaAnything（本地目录 SSaiyan）在 WSL 中使用 venv_wsl 运行 Python/pip/测试
 alwaysApply: true
 ---
 
