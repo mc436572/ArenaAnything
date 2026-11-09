@@ -1,0 +1,253 @@
+{
+  "n": 30,
+  "correct": 16,
+  "accuracy": 0.5333333333333333,
+  "temperature": 1.0,
+  "litellm_model": "moonshot/kimi-k3",
+  "items": [
+    {
+      "id": "demo-001",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 8984.2
+    },
+    {
+      "id": "demo-002",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 7734.3
+    },
+    {
+      "id": "demo-003",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 9498.5
+    },
+    {
+      "id": "demo-004",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 6792.5
+    },
+    {
+      "id": "demo-005",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 8272.9
+    },
+    {
+      "id": "demo-006",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 9752.2
+    },
+    {
+      "id": "demo-007",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 4357.0
+    },
+    {
+      "id": "demo-008",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 3179.8
+    },
+    {
+      "id": "demo-009",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 11466.4
+    },
+    {
+      "id": "demo-010",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 5324.0
+    },
+    {
+      "id": "demo-011",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 5324.1
+    },
+    {
+      "id": "demo-012",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 7632.3
+    },
+    {
+      "id": "demo-013",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 10335.2
+    },
+    {
+      "id": "demo-014",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 4470.9
+    },
+    {
+      "id": "demo-015",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 6751.3
+    },
+    {
+      "id": "demo-016",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 17481.8
+    },
+    {
+      "id": "demo-017",
+      "answer": "A",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 5929.2
+    },
+    {
+      "id": "demo-018",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 4460.8
+    },
+    {
+      "id": "demo-019",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 5689.0
+    },
+    {
+      "id": "demo-020",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 10485.6
+    },
+    {
+      "id": "demo-021",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 4137.9
+    },
+    {
+      "id": "demo-022",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 5621.4
+    },
+    {
+      "id": "demo-023",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 10336.4
+    },
+    {
+      "id": "demo-024",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 4408.4
+    },
+    {
+      "id": "demo-025",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 5436.9
+    },
+    {
+      "id": "demo-026",
+      "answer": "A",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 10320.1
+    },
+    {
+      "id": "demo-027",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 4498.3
+    },
+    {
+      "id": "demo-028",
+      "answer": "D",
+      "parsed": "C",
+      "correct": false,
+      "reply": "C",
+      "latency_ms": 6964.2
+    },
+    {
+      "id": "demo-029",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 11986.3
+    },
+    {
+      "id": "demo-030",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 5639.4
+    }
+  ],
+  "suite": "demo",
+  "model_alias": "kimi",
+  "ssj_version": "0.1.0",
+  "eval_profile": "demo-profile"
+}

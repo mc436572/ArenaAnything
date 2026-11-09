@@ -1,0 +1,27 @@
+# Frozen with ssj @0.1.0 — Case materialize copies this file, then sets default to the profile name.
+default: ds
+models:
+  ds:
+    litellm: deepseek/deepseek-chat
+    description: DeepSeek chat (V3)
+    builtin: true
+  glm:
+    litellm: zai/glm-4.7
+    description: Zhipu GLM 4.7
+    builtin: true
+  grok:
+    litellm: xai/grok-2-1212
+    description: xAI Grok 2
+    builtin: true
+  jev:
+    litellm: typesafe/jev-latest
+    description: JEV rolling latest (TypeSafe SystemOne)
+    builtin: true
+  kimi:
+    litellm: moonshot/kimi-k3
+    description: Kimi K3.1 Pro (CN platform)
+    builtin: true
+  mimo:
+    litellm: openrouter/xiaomi/mimo-v2.6-flash
+    description: MiMo V2.6 Flash via OpenRouter
+    builtin: true

@@ -1,0 +1,19 @@
+﻿# 密钥与本地进程根（勿让索引/Agent 读入）
+.env
+.env.*
+!.env.example
+case/**/.env
+
+# 本地 ssj 运行产物
+/config.yaml
+/traces/
+/inbox/
+/reports/
+/session/
+
+# Python / venv
+venv_wsl/
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/

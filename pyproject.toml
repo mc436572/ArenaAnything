@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssaiyan"
+version = "0.1.0"
+description = "Agentic AI data infra (Harness, benchmark, flywheel)"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.29",
+    "psycopg[binary]>=3.1",
+    "click>=8.1",
+    "rich>=13.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "httpx>=0.27",
+    "litellm>=1.0",
+]
+
+[project.scripts]
+ssj = "cli.ssj:main"
+arena = "cli.arena:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["shared*", "ssj*", "web*", "cli*", "harness*", "gate*", "trace*"]
+
+[tool.setuptools.package-data]
+ssj = ["chat-profiles/*.yaml", "chat-profiles/*.yml", "chat-profiles/*.json"]

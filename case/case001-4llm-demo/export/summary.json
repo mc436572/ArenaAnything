@@ -1,0 +1,85 @@
+{
+  "case_id": "case001-4llm-demo",
+  "title": "A demo test for 4 llm",
+  "agent": {
+    "line": "ssj",
+    "version": "0.1.0"
+  },
+  "eval_profile": "demo-profile",
+  "suites": [
+    "demo"
+  ],
+  "profiles": [
+    "ds",
+    "kimi",
+    "jev",
+    "mimo"
+  ],
+  "generated_at": "2026-11-04T05:48:02Z",
+  "cells": [
+    {
+      "profile": "ds",
+      "suite": "demo",
+      "accuracy": 0.8666666666666667,
+      "correct": 26,
+      "n": 30,
+      "duration_sec": 26.4,
+      "throughput": 1.136,
+      "litellm_model": "deepseek/deepseek-chat",
+      "model_alias": "ds",
+      "eval_profile": "demo-profile",
+      "ssj_version": "0.1.0",
+      "report_path": "reports/ds/eval-demo-ds-20261104T054346Z.json",
+      "model_id": "deepseek-chat",
+      "model_note": "DeepSeek chat (V3)"
+    },
+    {
+      "profile": "kimi",
+      "suite": "demo",
+      "accuracy": 0.6,
+      "correct": 18,
+      "n": 30,
+      "duration_sec": 282.46,
+      "throughput": 0.106,
+      "litellm_model": "moonshot/kimi-k3",
+      "model_alias": "kimi",
+      "eval_profile": "demo-profile",
+      "ssj_version": "0.1.0",
+      "report_path": "reports/kimi/eval-demo-kimi-20261104T054801Z.json",
+      "model_id": "kimi-k3",
+      "model_note": "Kimi K3.1 Pro (CN platform)"
+    },
+    {
+      "profile": "jev",
+      "suite": "demo",
+      "accuracy": 0.9333333333333333,
+      "correct": 28,
+      "n": 30,
+      "duration_sec": 12.37,
+      "throughput": 2.425,
+      "litellm_model": "typesafe/jev-latest",
+      "model_alias": "jev",
+      "eval_profile": "demo-profile",
+      "ssj_version": "0.1.0",
+      "report_path": "reports/jev/eval-demo-jev-20261104T054331Z.json",
+      "model_id": "jev-latest",
+      "model_note": "JEV direct (TypeSafe SystemOne / Decisions)"
+    },
+    {
+      "profile": "mimo",
+      "suite": "demo",
+      "accuracy": 0.8,
+      "correct": 24,
+      "n": 30,
+      "duration_sec": 61.13,
+      "throughput": 0.491,
+      "litellm_model": "openrouter/xiaomi/mimo-v2.6-flash",
+      "model_alias": "mimo",
+      "eval_profile": "demo-profile",
+      "ssj_version": "0.1.0",
+      "report_path": "reports/mimo/eval-demo-mimo-20261104T054421Z.json",
+      "model_id": "xiaomi/mimo-v2.6-flash",
+      "model_note": "MiMo V2.6 Flash via OpenRouter"
+    }
+  ]
+}

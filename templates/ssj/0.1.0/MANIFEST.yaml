@@ -1,0 +1,13 @@
+line: ssj
+version: "0.1.0"
+files:
+  - ssj-0.1.0.tar.gz
+  - AGENT_VERSION.yaml
+  - RELEASE.md
+  - MANIFEST.yaml
+  - README.md
+  - config.yaml
+  - models.yaml
+  - .env.example
+  - chat-profiles/demo-profile.yaml
+  - chat-profiles/example.yaml

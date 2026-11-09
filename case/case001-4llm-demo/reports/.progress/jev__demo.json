@@ -1,0 +1,1 @@
+{"suite": "demo", "model_alias": "jev", "litellm_model": "typesafe/jev-latest", "status": "done", "done": 30, "total": 30, "correct": 28, "item_id": "", "ts": 1793771011.2628956, "started_at": 1793770998.5568745, "elapsed_sec": 12.71}

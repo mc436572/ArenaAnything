@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>A demo test for 4 llm</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.5; }
+    h1 { margin-bottom: 0.25rem; }
+    .sub { color: #555; margin-bottom: 1.5rem; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+    th { background: #f4f4f4; }
+    .meta { font-size: 0.85rem; color: #666; }
+    .missing { color: #999; }
+    code { font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <h1>A demo test for 4 llm</h1>
+  <p class="sub">case_id: <code>case001-4llm-demo</code> · agent: <code>ssj@0.1.0</code> · generated: 2026-11-04T05:48:02Z</p>
+  <h2>Accuracy matrix</h2>
+  <p class="sub">Rows = suite · columns = profile · model = configured litellm id (request slug).</p>
+  <table>
+    <thead><tr><th></th><th>ds<br><span class="meta">model: deepseek-chat</span><br><span class="meta">DeepSeek chat (V3)</span></th><th>kimi<br><span class="meta">model: kimi-k3</span><br><span class="meta">Kimi K3.1 Pro (CN platform)</span></th><th>jev<br><span class="meta">model: jev-latest</span><br><span class="meta">JEV direct (TypeSafe SystemOne / Decisions)</span></th><th>mimo<br><span class="meta">model: xiaomi/mimo-v2.6-flash</span><br><span class="meta">MiMo V2.6 Flash via OpenRouter</span></th></tr></thead>
+    <tbody>
+      <tr><th>suite：demo</th><td><strong>86.7%</strong><br><span class="meta">26/30</span><br><span class="meta">26.4s · 1.14 q/s</span></td><td><strong>60.0%</strong><br><span class="meta">18/30</span><br><span class="meta">282.5s · 0.11 q/s</span></td><td><strong>93.3%</strong><br><span class="meta">28/30</span><br><span class="meta">12.4s · 2.42 q/s</span></td><td><strong>80.0%</strong><br><span class="meta">24/30</span><br><span class="meta">61.1s · 0.49 q/s</span></td></tr>
+    </tbody>
+  </table>
+  <h2>Reports</h2>
+  <table>
+    <thead><tr><th>profile</th><th>suite</th><th>accuracy</th><th>score</th><th>time</th><th>q/s</th><th>model id</th><th>version</th><th>litellm</th><th>file</th></tr></thead>
+    <tbody>
+      <tr><td>ds</td><td>demo</td><td>86.7%</td><td>26/30</td><td>26.4s</td><td>1.14</td><td><code>deepseek-chat</code></td><td>DeepSeek chat (V3)</td><td><code>deepseek/deepseek-chat</code></td><td><code>reports/ds/eval-demo-ds-20261104T054346Z.json</code></td></tr><tr><td>kimi</td><td>demo</td><td>60.0%</td><td>18/30</td><td>282.5s</td><td>0.11</td><td><code>kimi-k3</code></td><td>Kimi K3.1 Pro (CN platform)</td><td><code>moonshot/kimi-k3</code></td><td><code>reports/kimi/eval-demo-kimi-20261104T054801Z.json</code></td></tr><tr><td>jev</td><td>demo</td><td>93.3%</td><td>28/30</td><td>12.4s</td><td>2.42</td><td><code>jev-latest</code></td><td>JEV direct (TypeSafe SystemOne / Decisions)</td><td><code>typesafe/jev-latest</code></td><td><code>reports/jev/eval-demo-jev-20261104T054331Z.json</code></td></tr><tr><td>mimo</td><td>demo</td><td>80.0%</td><td>24/30</td><td>61.1s</td><td>0.49</td><td><code>xiaomi/mimo-v2.6-flash</code></td><td>MiMo V2.6 Flash via OpenRouter</td><td><code>openrouter/xiaomi/mimo-v2.6-flash</code></td><td><code>reports/mimo/eval-demo-mimo-20261104T054421Z.json</code></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

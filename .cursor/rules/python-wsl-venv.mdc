@@ -1,0 +1,41 @@
+---
+description: SSaiyan 在 WSL 中使用 venv_wsl 运行 Python/pip/测试
+alwaysApply: true
+---
+
+# Python 与 Shell：WSL + venv_wsl
+
+本仓库的 Python 工具链**只**使用 WSL 内已创建的虚拟环境，不要在 Windows 原生 Python、其他 venv 或全局 `pip` 上安装/运行项目依赖。
+
+## 路径
+
+| 项 | 值 |
+|----|-----|
+| 项目根（WSL） | `/mnt/d/10_Project/SSaiyan` |
+| 虚拟环境 | `./venv_wsl`（即 `/mnt/d/10_Project/SSaiyan/venv_wsl`） |
+| Python | 3.12（见 `venv_wsl/pyvenv.cfg`） |
+
+## 激活（在 WSL 终端）
+
+```bash
+cd /mnt/d/10_Project/SSaiyan
+source ./venv_wsl/bin/activate
+```
+
+提示符应显示 `(venv_wsl)`。
+
+## Agent / 终端命令约定
+
+1. **优先在 WSL bash 中执行** Python、`pip`、`pytest`、`ssj` 及项目脚本。
+2. 若当前 Shell 是 Windows PowerShell/CMD，用 WSL 包裹单条命令，例如：
+
+```bash
+wsl -e bash -lc 'cd /mnt/d/10_Project/SSaiyan && source venv_wsl/bin/activate && pip install -r requirements.txt && pip install -e . --no-deps'
+```
+
+3. **安装（两步）**：激活 `venv_wsl` 后 `pip install -r requirements.txt`（依赖），再 `pip install -e . --no-deps`（本仓 + `ssj`/`arena` 入口）。新增依赖时同步 **`pyproject.toml`** 与 **`requirements.txt`**。仅 WSL/Linux，不支持 Windows 原生 Python。
+4. **不要**新建 ` .venv`、`venv` 等并列环境，除非用户明确要求迁移方案。
+
+## 与 Docker / ssj 的关系
+
+容器内运行时仍按 Harness/Sandbox 文档；**本地开发与 CI 脚本准备**阶段统一走 WSL + `venv_wsl`。

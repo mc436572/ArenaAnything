@@ -1,0 +1,1 @@
+{"suite": "demo", "model_alias": "ds", "litellm_model": "deepseek/deepseek-chat", "status": "done", "done": 30, "total": 30, "correct": 26, "item_id": "", "ts": 1793771026.4085798, "started_at": 1793770999.6745074, "elapsed_sec": 26.73}

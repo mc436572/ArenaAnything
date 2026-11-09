@@ -1,0 +1,6 @@
+# Preset for: ssj eval --suite <name> --with-profile demo-profile
+system_prompt: Reply with a single letter A, B, C, or D only.
+timeout: 60
+# MiMo 等 reasoning 模型会把预算先用在 message.reasoning；16 常导致 content 为空。
+max_tokens: 256
+limit: 0

@@ -1,0 +1,255 @@
+{
+  "n": 30,
+  "correct": 25,
+  "accuracy": 0.8333333333333334,
+  "temperature": 0.0,
+  "litellm_model": "openrouter/xiaomi/mimo-v2.6-flash",
+  "duration_sec": 67.02,
+  "throughput": 0.448,
+  "items": [
+    {
+      "id": "demo-001",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 1902.0
+    },
+    {
+      "id": "demo-002",
+      "answer": "B",
+      "parsed": "C",
+      "correct": false,
+      "reply": "C",
+      "latency_ms": 711.0
+    },
+    {
+      "id": "demo-003",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 932.7
+    },
+    {
+      "id": "demo-004",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 1993.8
+    },
+    {
+      "id": "demo-005",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 5494.6
+    },
+    {
+      "id": "demo-006",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 836.0
+    },
+    {
+      "id": "demo-007",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 4306.7
+    },
+    {
+      "id": "demo-008",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 590.7
+    },
+    {
+      "id": "demo-009",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 2212.1
+    },
+    {
+      "id": "demo-010",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 1149.7
+    },
+    {
+      "id": "demo-011",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 964.0
+    },
+    {
+      "id": "demo-012",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 1495.4
+    },
+    {
+      "id": "demo-013",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 898.5
+    },
+    {
+      "id": "demo-014",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 523.1
+    },
+    {
+      "id": "demo-015",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 665.0
+    },
+    {
+      "id": "demo-016",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 3668.9
+    },
+    {
+      "id": "demo-017",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 13783.3
+    },
+    {
+      "id": "demo-018",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 1514.3
+    },
+    {
+      "id": "demo-019",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 734.1
+    },
+    {
+      "id": "demo-020",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 3627.0
+    },
+    {
+      "id": "demo-021",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 664.9
+    },
+    {
+      "id": "demo-022",
+      "answer": "C",
+      "parsed": "D",
+      "correct": false,
+      "reply": "The permutation is $p = (1, 2, 5, 4)(2, 3)$.\n\nLet's compute the product. Reading right to left (standard convention):\n- $1 \\to 1 \\to 2$\n- $2 \\to 3 \\to 3$\n- $3 \\to 3 \\to 4$\n- $4 \\to 4 \\to 1$\n- $5 \\to 5 \\to 5$\n\nSo $p = (1, 2, 3, 4)$, which is a 4-cycle.\n\nThe order of $p$ is 4, so $|\\langle p \\rangle| = 4$.\n\nThe index of $\\langle p \\rangle$ in $S_5$ is:\n$$[S_5 : \\langle p \\rangle] = \\frac{|S_5|}{|\\langle p \\rangle|} = \\frac{120}{4} = 30$$\n\nWait, 30 is not among the options. Let me re-read the problem.\n\nThe problem says $p = (1, 2, 5, 4)(2, 3)$. Let me recompute more carefully.\n\nActually",
+      "latency_ms": 8272.0
+    },
+    {
+      "id": "demo-023",
+      "answer": "D",
+      "parsed": "C",
+      "correct": false,
+      "reply": "C",
+      "latency_ms": 1107.1
+    },
+    {
+      "id": "demo-024",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "**B**\n\n- **Statement 1 is False:** A non-Abelian group can have an Abelian factor group. For example, \\(G = S_3\\) (non-Abelian) with \\(K = A_3 \\trianglelefteq S_3\\) gives \\(G/K \\cong \\mathbb{Z}_2\\), which is Abelian.\n\n- **Statement 2 is False:** Normality is **not** transitive. Counterexample: \\(G = S_4\\), \\(H = V_4 = \\{e,(12",
+      "latency_ms": 1184.0
+    },
+    {
+      "id": "demo-025",
+      "answer": "B",
+      "parsed": "A",
+      "correct": false,
+      "reply": "A",
+      "latency_ms": 829.5
+    },
+    {
+      "id": "demo-026",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "Statement 1: If a group has an element of order 15, then it has elements of order 15 coming in sets of φ(15) = 8 (the generators of the cyclic subgroup of order 15). So the number of elements of order 15 is a multiple of 8. If there's at least one, there are at least 8. True.\n\nStatement 2: If more than 8 elements of order 15, then the count is a multiple of 8, so at least 16. True.\n\nAnswer: A",
+      "latency_ms": 3473.3
+    },
+    {
+      "id": "demo-027",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 1228.4
+    },
+    {
+      "id": "demo-028",
+      "answer": "D",
+      "parsed": "C",
+      "correct": false,
+      "reply": "C",
+      "latency_ms": 921.3
+    },
+    {
+      "id": "demo-029",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 529.8
+    },
+    {
+      "id": "demo-030",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 802.2
+    }
+  ],
+  "suite": "demo",
+  "model_alias": "mimo",
+  "ssj_version": "0.1.0",
+  "eval_profile": "demo-profile"
+}

@@ -1,0 +1,5 @@
+# Chat preset (--with-profile example). User text always via --text on CLI.
+system_prompt: Answer in concise Chinese unless asked otherwise.
+with_context: true
+timeout: 60
+max_tokens: 4096

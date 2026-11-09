@@ -1,0 +1,24 @@
+case_id: case001-4llm-demo
+title: A demo test for 4 llm
+agent:
+  line: ssj
+  version: 0.1.0
+benchmark:
+  suites:
+  - demo
+matrix:
+  profiles:
+  - ds
+  - kimi
+  - jev
+  - mimo
+eval:
+  profile: demo-profile
+run:
+  repeats: 1
+  probe_limit: 0
+  timeout_sec: 60
+  temperature: 0
+output:
+  work_dir: .
+  reports_dir: reports

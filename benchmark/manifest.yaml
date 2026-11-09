@@ -1,0 +1,44 @@
+version: 3
+description: Official LLM multiple-choice suites (git-published). ssj eval --suite
+  reads manifest + jsonl here; Case workspaces do not copy probes.
+suites:
+  ceval:
+    file: ceval.jsonl
+    lang: zh
+    parse: letter
+    n_items: 12342
+    source: ceval/ceval-exam
+    split: test (52 subjects)
+    license: CC BY-NC-SA 4.0 (see ceval/ceval-exam dataset card)
+    origin: scripts/build_llm_eval_benchmarks.py — all subjects test split from ceval/ceval-exam
+  cmmlu:
+    file: cmmlu.jsonl
+    lang: zh
+    parse: letter
+    n_items: 11582
+    source: haonan-li/cmmlu
+    split: test (67 subjects)
+    license: CC BY-NC-SA 4.0 (see haonan-li/cmmlu dataset card)
+    origin: scripts/build_llm_eval_benchmarks.py — test/*.csv from haonan-li/cmmlu
+      cmmlu_v1_0_1.zip (official release)
+  mmlu:
+    file: mmlu.jsonl
+    lang: en
+    parse: letter
+    n_items: 14042
+    source: cais/mmlu
+    split: test (all subjects with test split)
+    license: MIT (see cais/mmlu / Hendrycks et al.)
+    origin: scripts/build_llm_eval_benchmarks.py — merged test splits from cais/mmlu
+  demo:
+    file: demo.jsonl
+    lang: mixed
+    parse: letter
+    n_items: 30
+    kind: bundle
+    composed_from:
+    - ceval
+    - cmmlu
+    - mmlu
+    origin: First 10 items from each of ceval, cmmlu, mmlu (Harness smoke; not a separate
+      upstream dataset).

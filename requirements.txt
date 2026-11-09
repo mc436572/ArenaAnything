@@ -1,0 +1,16 @@
+# SSaiyan — third-party deps (canonical ranges in pyproject.toml).
+# Platform: Linux / WSL only, Python >= 3.12.
+#
+# After: python3.12 -m venv venv_wsl && source venv_wsl/bin/activate && pip install -U pip
+#
+#   pip install -r requirements.txt   # dependencies
+#   pip install -e . --no-deps        # editable package + ssj / arena CLI entry points
+
+asyncpg>=0.29
+psycopg[binary]>=3.1
+click>=8.1
+rich>=13.0
+pyyaml>=6.0
+python-dotenv>=1.0
+httpx>=0.27
+litellm>=1.0

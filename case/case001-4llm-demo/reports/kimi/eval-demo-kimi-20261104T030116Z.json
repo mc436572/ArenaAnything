@@ -1,0 +1,283 @@
+{
+  "n": 30,
+  "correct": 0,
+  "accuracy": 0.0,
+  "temperature": 0,
+  "litellm_model": "moonshot/kimi-k3",
+  "items": [
+    {
+      "id": "demo-001",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 2956.6,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-002",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 697.5,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-003",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 682.4,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-004",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 706.7,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-005",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 776.3,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-006",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 648.1,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-007",
+      "answer": "A",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 703.9,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-008",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 592.9,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-009",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 768.4,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-010",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 704.0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-011",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 631.1,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-012",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 668.8,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-013",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 733.3,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-014",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 688.4,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-015",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 713.9,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-016",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 628.8,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-017",
+      "answer": "A",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 696.2,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-018",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 653.3,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-019",
+      "answer": "A",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 592.9,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-020",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 691.8,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-021",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 687.3,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-022",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 668.7,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-023",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 732.3,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-024",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 1021.5,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-025",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 708.3,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-026",
+      "answer": "A",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 694.4,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-027",
+      "answer": "A",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 743.4,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-028",
+      "answer": "D",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 728.0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-029",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 881.6,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    },
+    {
+      "id": "demo-030",
+      "answer": "C",
+      "parsed": null,
+      "correct": false,
+      "reply": "",
+      "latency_ms": 761.2,
+      "error": "HTTP 400: {\"error\":{\"message\":\"invalid temperature: only 1 is allowed for this model\",\"type\":\"invalid_request_error\"}}"
+    }
+  ],
+  "suite": "demo",
+  "model_alias": "kimi",
+  "ssj_version": "0.1.0",
+  "eval_profile": "demo-profile"
+}

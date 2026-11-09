@@ -1,0 +1,53 @@
+SSaiyan
+Copyright 2026 mc436572
+
+This product includes software and data developed by third parties.
+
+--------------------------------------------------------------------------------
+1. Code license scope
+--------------------------------------------------------------------------------
+
+The Apache License 2.0 in ./LICENSE applies to the source code in this
+repository (Python packages, CLI, and tests) written by the SSaiyan authors.
+
+It does NOT apply to the benchmark datasets under ./benchmark/, which remain
+under their own upstream licenses as described below.
+
+--------------------------------------------------------------------------------
+2. Benchmark data (./benchmark/)
+--------------------------------------------------------------------------------
+
+  ceval.jsonl
+    Source : ceval/ceval-exam  (C-Eval, test split, 52 subjects)
+    License: CC BY-NC-SA 4.0
+    Notes  : Non-commercial use only. ShareAlike applies to derivatives.
+             See the ceval/ceval-exam dataset card.
+
+  cmmlu.jsonl
+    Source : haonan-li/cmmlu  (official release cmmlu_v1_0_1.zip, test split, 67 subjects)
+    License: CC BY-NC-SA 4.0
+    Notes  : Non-commercial use only. ShareAlike applies to derivatives.
+             See the haonan-li/cmmlu dataset card.
+
+  mmlu.jsonl
+    Source : cais/mmlu  (test splits, all subjects)
+    License: MIT
+    Notes  : See cais/mmlu and Hendrycks et al.
+
+  demo.jsonl
+    Composed of the first 10 items from each of the three suites above.
+    Because it contains CC BY-NC-SA material, demo.jsonl is likewise
+    restricted to non-commercial use.
+
+IMPORTANT: do not redistribute this repository, or any product derived from
+it, for commercial purposes while it contains ceval.jsonl, cmmlu.jsonl, or
+demo.jsonl. Remove those files first, or obtain separate permission from the
+respective dataset maintainers.
+
+--------------------------------------------------------------------------------
+3. Third-party Python dependencies
+--------------------------------------------------------------------------------
+
+Runtime dependencies are declared in pyproject.toml / requirements.txt and are
+distributed under their own licenses; they are not vendored into this
+repository.

@@ -1,0 +1,40 @@
+scripts/llm_eval_raw/
+venv_wsl/
+.venv/
+.env
+.env.*
+!.env.example
+case/**/.env
+# arena init 从 templates/ssj/<ver>/ssj-<ver>.tar.gz 解压；不入库
+case/**/ssj/
+
+# 仓库根不是 ssj 进程根；在根目录误跑 ssj 时产生的个体文件不入库
+/config.yaml
+/models.yaml
+/chat-profiles/
+/traces/
+/inbox/
+/reports/
+/session/
+# arena 汇总：case/<id>/reports/<profile>/ 可入库；个体根下 reports 为 eval 暂存
+case/**/ssj-*/reports/
+**/traces/
+# 临时/研究目录（含 zh-sarcasm 题池、sarcasm-corpus、brass 对局记录），不入库
+/tmp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 内部设计文档暂不公开
+/doc/
+
+# 维护者脚本与原始数据下载，暂不公开
+/scripts/
+
+# 个人工作流 skill（含与本项目无关的内容），只保留 rules/
+/.cursor/skills/
+
+# 自建 suite（整理中，暂不发布）
+benchmark/zh-sarcasm.jsonl

@@ -1,0 +1,1 @@
+{"suite": "demo", "model_alias": "mimo", "litellm_model": "openrouter/xiaomi/mimo-v2.6-flash", "status": "done", "done": 30, "total": 30, "correct": 24, "item_id": "", "ts": 1793771061.4251091, "started_at": 1793770999.9426253, "elapsed_sec": 61.48}

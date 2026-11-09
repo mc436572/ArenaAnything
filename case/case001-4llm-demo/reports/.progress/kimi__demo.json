@@ -1,0 +1,1 @@
+{"suite": "demo", "model_alias": "kimi", "litellm_model": "moonshot/kimi-k3", "status": "done", "done": 30, "total": 30, "correct": 18, "item_id": "", "ts": 1793771281.353351, "started_at": 1793770998.553934, "elapsed_sec": 282.8}

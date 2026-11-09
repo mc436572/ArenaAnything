@@ -1,0 +1,5 @@
+line: ssj
+version: "0.1.0"
+mode: single-turn
+tools: false
+description: Whiteboard agent — chat + MCQ eval; arena init/run; eval progress file for matrix runs.

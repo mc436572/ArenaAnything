@@ -1,0 +1,5 @@
+profile: dev
+max_steps: 20
+sandbox: local
+trace_subdir: traces
+chat_profiles_subdir: chat-profiles

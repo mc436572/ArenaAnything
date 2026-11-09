@@ -1,0 +1,255 @@
+{
+  "n": 30,
+  "correct": 24,
+  "accuracy": 0.8,
+  "temperature": 0.0,
+  "litellm_model": "openrouter/xiaomi/mimo-v2.6-flash",
+  "duration_sec": 61.13,
+  "throughput": 0.491,
+  "items": [
+    {
+      "id": "demo-001",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 3862.8
+    },
+    {
+      "id": "demo-002",
+      "answer": "B",
+      "parsed": "C",
+      "correct": false,
+      "reply": "C",
+      "latency_ms": 891.4
+    },
+    {
+      "id": "demo-003",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 1091.3
+    },
+    {
+      "id": "demo-004",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 1939.0
+    },
+    {
+      "id": "demo-005",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 1002.1
+    },
+    {
+      "id": "demo-006",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 939.4
+    },
+    {
+      "id": "demo-007",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 1054.6
+    },
+    {
+      "id": "demo-008",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 717.6
+    },
+    {
+      "id": "demo-009",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 2246.0
+    },
+    {
+      "id": "demo-010",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 7916.0
+    },
+    {
+      "id": "demo-011",
+      "answer": "B",
+      "parsed": null,
+      "correct": false,
+      "reply": "The question asks about the the object劳动 as as劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动劳动.劳动劳动劳动..劳动.劳动劳动劳动劳动.劳动劳动劳动劳动.劳动劳动.劳动.劳动..劳动劳动劳动劳动劳动..劳动劳动劳动劳动.，，，，，,，.，..............................,.,.....,,,,..,,,,,,,,,,,,,........................... question question question土地 the the question the the the question question the question question.. question question.",
+      "latency_ms": 8074.7
+    },
+    {
+      "id": "demo-012",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 937.4
+    },
+    {
+      "id": "demo-013",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 891.8
+    },
+    {
+      "id": "demo-014",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 721.7
+    },
+    {
+      "id": "demo-015",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "D",
+      "latency_ms": 7507.9
+    },
+    {
+      "id": "demo-016",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 1089.6
+    },
+    {
+      "id": "demo-017",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 631.8
+    },
+    {
+      "id": "demo-018",
+      "answer": "C",
+      "parsed": "C",
+      "correct": true,
+      "reply": "C",
+      "latency_ms": 759.8
+    },
+    {
+      "id": "demo-019",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 744.6
+    },
+    {
+      "id": "demo-020",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 815.8
+    },
+    {
+      "id": "demo-021",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "**B**\n\nSince √18 = 3√2, we have Q(√2, √3, √18) = Q(√2, √3). The extension Q(√2, √3) over Q has degree 4 (with basis {1, √2, √3, √6}), so the degree is **4**.",
+      "latency_ms": 5939.7
+    },
+    {
+      "id": "demo-022",
+      "answer": "C",
+      "parsed": "D",
+      "correct": false,
+      "reply": "p = (1,2,5,4)(2,3). Let's compute the product. Convention: composition left to right or right to left? Let's compute as functions applied right to left (standard): p = (1,2,5,4)∘(2,3).\n\nApply to 1: (2,3) fixes 1, then (1,2,5,4) sends 1→2. So p(1)=2.\n2: (2,3) sends 2→3, then (1,2,5,4) fixes 3. p(2)=3.\n3: (2,3) sends 3→2, then (1,2,5,4) sends 2→5. p(3)=5.\n4: (2,3) fixes 4, then (1,2,5,4) sends 4→1. p(4)=1.\n5: (2,3) fixes 5, then (1,2,5,4) sends 5→4. p(5)=4.\n\nSo p = (1,2,3,5,4), a 5-cycle. Order 5.",
+      "latency_ms": 1675.1
+    },
+    {
+      "id": "demo-023",
+      "answer": "D",
+      "parsed": "D",
+      "correct": true,
+      "reply": "We need to find zeros of f(x) = x^5 + 3x^3 + x^2 + 2x in Z_5.\n\nf(0) = 0. So 0 is a zero.\n\nf(1) = 1 + 3 + 1 + 2 = 7 = 2 mod 5. Not zero.\n\nf(2) = 32 + 3*8 + 4 + 4 = 32 + 24 + 4 + 4 = 64 = 64 mod 5 = 4. Not zero.\n\nf(3) = 243 + 3*27 + 9 + 6 = 243 + 81 + 9 + 6 = 339. 339 mod 5 = 339 - 335 = 4. Not zero.\n\nf(4) = 1024 + 3*64 + 16 + 8 = 1024 + 192 + 16 + 8 = 1240. 1240 mod 5 = 0. So",
+      "latency_ms": 1694.8
+    },
+    {
+      "id": "demo-024",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "**B**\n\n- **Statement 1 is False:** A non-Abelian group can have an Abelian factor group. For example, \\(S_3\\) is non-Abelian, but \\(S_3/A_3 \\cong \\mathbb{Z}_2\\) is Abelian (here \\(A_3 = \\{e, (123), (132)\\}\\) is a normal subgroup).\n\n- **Statement 2 is False:** Normality is **not** transitive. Counterexample: let \\(G = S_4\\",
+      "latency_ms": 1525.7
+    },
+    {
+      "id": "demo-025",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 949.2
+    },
+    {
+      "id": "demo-026",
+      "answer": "A",
+      "parsed": "D",
+      "correct": false,
+      "reply": "We need to analyze: Statement 1: If a group has an element of order 15, it must have at least 8 elements of order 15.\n\nElements of order 15: In a cyclic subgroup of order 15, the generators are elements of order 15: φ(15) = φ(3)φ(5) = 2·4 = 8. So a cyclic subgroup of order 15 has exactly 8 generators, all of order 15. So if a group has an element of order 15, it has at least 8 elements of order 15. True.\n\nStatement 2: If a group has more than 8 elements of order 15, it must have at least 16 elements of order 15.\n\nHmm. The number of elements of order 15 — is it a multiple of 8? Consider a group with two distinct cyclic subgroups of order 15 intersecting trivially? Two cyclic subgroups of order 15 intersect in a subgroup whose order divides 15. If they intersect nontrivially, the intersection has order 3 or 5 (or 15 meaning equal). Elements of",
+      "latency_ms": 1747.1
+    },
+    {
+      "id": "demo-027",
+      "answer": "A",
+      "parsed": "A",
+      "correct": true,
+      "reply": "A",
+      "latency_ms": 1007.9
+    },
+    {
+      "id": "demo-028",
+      "answer": "D",
+      "parsed": "C",
+      "correct": false,
+      "reply": "C",
+      "latency_ms": 1020.7
+    },
+    {
+      "id": "demo-029",
+      "answer": "B",
+      "parsed": "B",
+      "correct": true,
+      "reply": "B",
+      "latency_ms": 623.2
+    },
+    {
+      "id": "demo-030",
+      "answer": "C",
+      "parsed": "D",
+      "correct": false,
+      "reply": "We need to find zeros of f(x) = x^3 + 2x + 2 in Z_7.\n\nx=0: 2 ≠ 0\nx=1: 1+2+2=5 ≠0\nx=2: 8+4+2=14=0 mod 7. Yes, 2 is a root.\nx=3: 27+6+2=35=0 mod 7. Yes, 3 is a root.\nx=4: 64+8+2=74 = 74-70=4 ≠0\nx=5: 125+10+2=137; 137-133=4 ≠0\nx=6: 216+12+2=230; 230-224=6 ≠0\n\nSo roots are 2 and 3. Option C.\n\nWait, but a cubic with roots 2 and 3: factor (x-2)(x-3) = x^2 -5x +6 = x^2+2x+6. Divide x^3+2x+",
+      "latency_ms": 1114.7
+    }
+  ],
+  "suite": "demo",
+  "model_alias": "mimo",
+  "ssj_version": "0.1.0",
+  "eval_profile": "demo-profile"
+}

@@ -1,0 +1,23 @@
+# Normalize line endings so Windows/WSL checkouts stay consistent.
+* text=auto eol=lf
+
+# Shell / Python / docs
+*.py   text eol=lf
+*.sh   text eol=lf
+*.md   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# Binary artifacts must never be line-ending converted.
+*.tar.gz binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.pdf    binary
